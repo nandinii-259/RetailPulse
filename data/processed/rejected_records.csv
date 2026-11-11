@@ -1,0 +1,5 @@
+transaction_id,order_date,customer_id,product_id,store_id,quantity,unit_price,payment_method,rejection_reason
+T102,2026-11-01,C002,P002,S01,5.0,500,Cash,Duplicate transaction ID; 
+T106,2026-11-03,C006,P002,S01,,500,UPI,Missing quantity; 
+T107,2026-11-03,C007,P003,S02,2.0,-1200,Cash,Invalid unit price; 
+T108,2026-11-03,,P004,S03,1.0,2500,Card,Missing customer ID; 
